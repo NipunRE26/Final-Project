@@ -1,0 +1,117 @@
+table{
+    border-collapse:collapse;
+    margin-top:20px;
+    margin-bottom:50px;
+    padding:20px;
+    width:100%
+}
+footer{
+    text-align:center;
+    background-color:lightgrey;
+    padding:50px;
+    margin-top:150px;
+}
+th{
+    font-size:25px;
+    text-decoration:none;
+    color:yellow;
+    padding:25px;
+}
+a:hover{
+    text-decoration:none;
+    color:yellowgreen;
+}
+a:visited,a:link,a:active{
+    text-decoration:none;
+}
+a{
+    color:yellow;
+}
+#div1{
+    background-image:url('https://tse4.mm.bing.net/th?id=OIP.77EPksR0hxVDYtQJEUOjQgHaEo&pid=Api&P=0&h=180');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+h1{
+    padding:200px;
+}
+@keyframes animation{
+    0%{
+        background-color:lightseagreen;
+    }
+    25%{
+        background-color:lightgoldenrodyellow;
+    }
+    50%{
+        background-color:lightslategray;
+    }
+    75%{
+        background-color:lightcoral;
+    }
+    100%{
+        background-color:lightgreen;
+    }
+}
+body{
+    animation-name:animation;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes animation2{
+    to{
+        font-size:25px;
+        color:blue;
+    }
+    from{
+        font-size:22px;
+        color:green;
+    }
+}
+h2{
+    animation-name:animation2;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+button{
+    background-color:lightblue;
+    width:100px;
+    border:none;
+}
+button:active{
+    background-color:darkcyan;
+}
+#contactform{
+    margin-top:50px;
+    padding:20px;
+    background-color:#fff;
+    border:1px solid lightgrey;
+    border-radius:8px;
+    width:50%;
+    margin:auto;
+}
+#contactform label{
+    display:block;
+    margin:10px 0;
+}
+#contactform input,#contactform textarea{
+    width:100%;
+    padding:8px;
+    margin:8px 0;
+    box-sizing:border-box;
+}
+#contactform button{
+    background-color:lightblue;
+    font-size:18px;
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+#contactform button:hover{
+    background-color:lightskyblue;
+    font-size:19px;
+}
+ol a{
+    font-size:30px;
+}
